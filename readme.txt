@@ -2,27 +2,28 @@
 Contributors: A. R. Jones (nomadcoder)
 Donate link: https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=gqjtYzw8TuOyQvmQDK0qTTaTyzz5z36k0xjc6N4cTQ8KzTc7asPw59FljVq&dispatch=5885d80a13c0db1f8e263663d3faee8d96f000117187ac9edec8a65b311f447e
 Tags: Guest Author Name, Override Author Name, Author 
-Requires at least: 
-Tested up to: 4.3.1
+Stable Tag: 1.1
+Requires at least: 4.1
+Tested up to: 4.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Visit the web site for detailed examples.
 
-For quicker support, please visit the <a href="http://www.shooflysolutions.com/software/guest-author-name/">plugin page on the Shoofly Solutions web page</a>. 
- 
-http://www.shooflysolutions.com/software/guest-author-name/
-
-Please be kind and rate this plugin. Everything helps! 
-
+Create a post and override the author name with one or more names or text. You can also create a link for the author name field
 
 == Description ==
 Version 1.0
 
+
+
+Create a post and override the author name with one or more names or text. You can also create a link for the author name field
+
+For quicker support, please visit the <a href="http://www.shooflysolutions.com/software/guest-author-name/">plugin page on the Shoofly Solutions web page</a>. 
+ 
+http://www.shooflysolutions.com/software/guest-author-name/
 Donations for extended support are appreciated but are never required!  
 
-This plugin allows you to create a post and override the author name with one or more names or text. You can also create a link for the author name field
-
+Please be kind and rate this plugin. Everything helps! 
 == Installation ==
 
 Download the Guest Author Name plugin
@@ -59,6 +60,8 @@ Please visit the FAQ page on our site at <a href="http://www.shooflysolutions.co
 1. Override the post Author
 2. Post with Guest Author
 == Changelog ==
+* 1.1
+* Fix for blank author link
 * 1.0
 * Initial Release
 

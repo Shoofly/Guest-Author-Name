@@ -32,7 +32,11 @@ class sfly_guest_author
         global $post;
         $author = get_post_meta( $post->ID, 'sfly_guest_author_names', true );
         if ( $author )
+        {
            $link = get_post_meta( $post->ID, 'sfly_guest_link', true );      
+           if (!$link)
+            $link = "";
+        }
         return $link;
     }
 	/**
@@ -91,8 +95,7 @@ class sfly_guest_author
         $link = esc_url($_POST['sfly_guest_link']);
 		// Update the meta field.
 		update_post_meta( $post_id, 'sfly_guest_author_names', $author );
-        if ($link)
-            update_post_meta( $post_id, 'sfly_guest_link', $link);
+        update_post_meta( $post_id, 'sfly_guest_link', $link);
 	}
 
 
