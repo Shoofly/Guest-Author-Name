@@ -2,9 +2,10 @@
 Contributors: A. R. Jones (nomadcoder)
 Donate link: https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=gqjtYzw8TuOyQvmQDK0qTTaTyzz5z36k0xjc6N4cTQ8KzTc7asPw59FljVq&dispatch=5885d80a13c0db1f8e263663d3faee8d96f000117187ac9edec8a65b311f447e
 Tags: Guest Author Name, Override Author Name, Author 
+Copyright: Shoofly Solutions 2015, 2016
 Stable Tag: 1.1
 Requires at least: 4.1
-Tested up to: 4.4.1
+Tested up to: 4.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,11 +13,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Create a post and override the author name with one or more names or text. You can also create a link for the author name field
 
 == Description ==
-Version 1.0
+Version 2.0
 
 
-
-Create a post and override the author name with one or more names or text. You can also create a link for the author name field
+Create a post and override the author name with one or more names or text. You can also create a link for the author name field, add a description and an email address for the gravatar.
 
 For quicker support, please visit the <a href="http://www.shooflysolutions.com/software/guest-author-name/">plugin page on the Shoofly Solutions web page</a>. 
  
@@ -60,6 +60,9 @@ Please visit the FAQ page on our site at <a href="http://www.shooflysolutions.co
 1. Override the post Author
 2. Post with Guest Author
 == Changelog ==
+* 2.0
+* Add code to manage author description/bio and gravatar for guest authors
+* Add new fields for author bio and gravatar email address
 * 1.1
 * Fix for blank author link
 * 1.0
