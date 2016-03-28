@@ -1,10 +1,11 @@
 <?php
-/*Plugin Name: Simply Guest Author Name 
+/*
+Author: A. R. Jones
+Plugin Name: Simply Guest Author Name 
 Slug: guest-author-name
 Plugin URI: http://www.shooflysolutions.com/guestauthor
 Description: An ideal plugin for cross posting. Guest Author Name helps you to publish posts by authors without having to add them as users. If the Guest Author field is filled in on the post, the Guest Author name will override the author.  The optional Url link allows you to link to another web site.
-Version: 3.0
-Author: A. R. Jones (nomadcoder)
+Version: 3.1
 Author URI: http://www.shooflysolutions.com
 Copyright (C) 2015, 2016 Shoofly Solutions
 Contact me at http://www.shooflysolutions.com.com*/
@@ -17,20 +18,20 @@ class sfly_guest_author
     function __construct()
     {
   
-        add_filter( 'the_author', array($this, 'guest_author_name'), 2 );
-        add_filter( 'get_the_author_display_name', array($this, 'guest_author_name'), 2);
-        add_filter( 'author_link', array($this, 'guest_author_link'), 2);
-        add_filter('get_the_author_link', array($this, 'guest_author_link'), 2);
-        add_filter('get_the_author_url', array($this, 'guest_author_link'), 2);
-        add_filter('author_description', array($this, 'guest_author_description'), 2);
-        add_filter('get_the_author_description', array($this,  'guest_author_description'), 2);
+        add_filter( 'the_author', array($this, 'guest_author_name'), 12 );
+        add_filter( 'get_the_author_display_name', array($this, 'guest_author_name'), 12);
+        add_filter( 'author_link', array($this, 'guest_author_link'), 12);
+        add_filter('get_the_author_link', array($this, 'guest_author_link'), 12);
+        add_filter('get_the_author_url', array($this, 'guest_author_link'), 21);
+        add_filter('author_description', array($this, 'guest_author_description'), 12);
+        add_filter('get_the_author_description', array($this,  'guest_author_description'), 12);
 
   
-        add_filter( 'jetpack_open_graph_tags', array($this, 'sfly_custom_og_author'), 2 );
-        add_filter('get_the_author_id', array($this, 'guest_author_id'), 2);
-        add_filter('author_id', array($this, 'guest_author_id'), 2);
+        add_filter( 'jetpack_open_graph_tags', array($this, 'sfly_custom_og_author'), 12 );
+        add_filter('get_the_author_id', array($this, 'guest_author_id'), 12);
+        add_filter('author_id', array($this, 'guest_author_id'), 12);
 
-        add_filter('get_avatar', array($this, 'guest_author_avatar'), 2, 1);
+        add_filter('get_avatar', array($this, 'guest_author_avatar'), 12, 1);
    
 
         add_action( 'add_meta_boxes', array( $this, 'add_meta_box' ) );

@@ -1,10 +1,10 @@
 ﻿=== Plugin Name ===
-Contributors: A. R. Jones (nomadcoder)
-Donate link: https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=gqjtYzw8TuOyQvmQDK0qTTaTyzz5z36k0xjc6N4cTQ8KzTc7asPw59FljVq&dispatch=5885d80a13c0db1f8e263663d3faee8d96f000117187ac9edec8a65b311f447e
+Contributors: nomadcoder
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FTBD2UDXFJDB6
 Tags: Guest Author Name, Override Author Name, Author 
-Stable Tag: 1.1
+Stable Tag: 3.1
 Requires at least: 4.1
-Tested up to: 4.4.1
+Tested up to: 4.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,7 @@ Please visit the FAQ page on our site at <a href="http://www.shooflysolutions.co
 1. Override the post Author
 2. Post with Guest Author
 == Changelog ==
+= 3.1 change priority to work with Pretty author box
 = 3.0
 * Fix code to work with Jetpack Subscriptions & Open Graph Tags. Known issue: The author link for posts sent to subscribers will link to the actual post author, not the guest author. This appears to be a possible limitation of Jetpack.
 * 2.0
